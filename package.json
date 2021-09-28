@@ -1,0 +1,40 @@
+{
+  "name": "mrm-task-tailwindcss",
+  "version": "1.0.0",
+  "description": "Tailwindcss mrm task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest && npm run test:jest --",
+    "test:jest": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "files": [
+    "index.js",
+    "templates"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "mrm",
+    "tailwindcss",
+    "config",
+    "task"
+  ],
+  "author": "David Nussio",
+  "license": "MIT",
+  "dependencies": {
+    "mrm-core": "^6.1.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "autoprefixer": "^10.3.6",
+    "jest": "^27.2.2",
+    "memfs": "^3.3.0",
+    "mrm": "^3.0.9",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
+  }
+}
